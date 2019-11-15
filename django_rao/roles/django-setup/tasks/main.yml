@@ -1,0 +1,5 @@
+- name: Install Django
+  become: yes
+  pip:
+    name: django==2.2.7
+    executable: pip3

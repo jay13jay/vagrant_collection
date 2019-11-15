@@ -1,0 +1,8 @@
+Vagrant.configure("2") do |config|
+  config.vm.box = "nickcharlton/postgres"
+  config.vm.box_version = "9.6.1"
+
+  config.vm.provider "virtualbox" do |v|
+    v.name = "postgres"
+  end
+end

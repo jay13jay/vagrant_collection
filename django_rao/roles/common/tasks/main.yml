@@ -1,0 +1,5 @@
+- name: Install Common Packages
+  become: yes
+  yum:
+    name: "{{ common_packages }}"
+    state: present
