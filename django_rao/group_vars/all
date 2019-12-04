@@ -1,5 +1,0 @@
-common_packages:
-  - python-pip
-  - vim
-  - git
-  - unzip
